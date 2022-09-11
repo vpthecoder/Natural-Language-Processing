@@ -20,3 +20,8 @@ and lots of built-in string methods to work with strings. A weakness could be th
 
 I learned about pickling and and system arguments in python. The syntax of Python and using regular expressions and classes was a review for me since I had experience with it. 
 
+
+## Assignment 2
+This is an assignment tht uses google colabs to utilize the functions in NLTK API. 
+
+[pdf here](vxp200027-Assignment2.pdf)
