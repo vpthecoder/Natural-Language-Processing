@@ -58,7 +58,7 @@ dictionaries, and save to files with appropriate names. The reason we are pickli
 one program and unpickling them in another is that NLTK ngrams is slow and if you put this 
 all in one program, you may waste a lot of time waiting for ngrams() to finish.
 
-[code here](Homework3\program1.py)
+[code here](Homework3/program1.py)
 
 
 
@@ -80,6 +80,6 @@ approach
 g. describe how language models can be evaluated
 h. give a quick introduction to Google’s n-gram viewer and show an example 
 
-[code here](Homework3\program2.py) [pdf here](Homework3\vxp200027-narrative.pdf)
+[code here](Homework3/program2.py) [pdf here](Homework3/vxp200027-narrative.pdf)
 
 
