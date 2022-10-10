@@ -43,6 +43,7 @@ This is an assignment that demonstrates ability to use Wordnet.
 ## Assignment 5
 
 Instructions: Program 1: Build separate language models for 3 languages as follows. 
+
 a. create a function with a filename as argument  
 
 b. read in the text and remove newlines 
@@ -71,6 +72,7 @@ all in one program, you may waste a lot of time waiting for ngrams() to finish.
 
 
 Program 2. 
+
 a. Read in your pickled dictionaries.  
 
 b. For each line in the test file, calculate a probability for each language (see note below) and 
@@ -99,9 +101,17 @@ approach
 
 g. describe how language models can be evaluated  
 
-h. give a quick introduction to Google’s n-gram viewer and show an example  
-  
+h. give a quick introduction to Google's n-gram viewer and show an example  
+
 
 [code here](Homework3/program2.py) [pdf here](Homework3/vxp200027-narrative.pdf)
 
+
+## Assignment 6
+
+This program creates a web crawler that uses a starter url of a wikipedia article on climate change and outputs a list of relevant urls. It then scrapes up the text from the urls and cleans it up. It then 
+extracts the top 40 most common terms from the articles using frequency count and prints them out.
+I then manually hardcoded the top 10 out of those 40 I thought were the most important. It then creates a knowledge base stored as a dict, where the key is the word in the top 10 and the value is a list of sentences that contain the word.
+
+[code here](Homework4/webcrawler.py) [pdf here](Homework4/vxp200027-report.pdf)
 
