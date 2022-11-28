@@ -38,7 +38,7 @@ with open(pathlib.Path.cwd().joinpath('LangId.test'), 'r', encoding='utf-8') as 
 
 
     #open created solution file
-    with open("mysol.txt", 'r+') as file:
+    with open("mysol.txt", 'w') as file:
         file.truncate(0)
     counter = 0
     #for each line calculate probability and write the language of max probability to file
